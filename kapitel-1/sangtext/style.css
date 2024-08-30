@@ -1,0 +1,18 @@
+body {
+    background-color:rgb(164, 82, 241);
+    background-image: url("./bilder/diego-ph-5LOhydOtTKU-unsplash.jpg");
+}
+
+h1 {
+    color:rgb(7, 135, 247);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    color:hsl(348, 70%, 44%);
+    font-size: 50px;
+}
+p {
+    color:rgb(203, 196, 98);
+    font-size: 20px;
+}
