@@ -1,0 +1,27 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    color:azure;
+    margin-left: 100px;
+}
+p {
+    color: azure;
+    font-style: italic;
+    background-color: rgba(4, 84, 181, 0.384);
+    width: 500px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 3px solid  ;
+
+}
+
+img {
+    margin-left: 100px;
+    width: 100px;
+
+}
