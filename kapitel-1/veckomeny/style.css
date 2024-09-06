@@ -1,0 +1,29 @@
+body {
+background-color: rgb(37, 248, 248);
+}
+table {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+}
+caption {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #c85b8a;
+    background-image: url("./bilder/OIP.jpg");
+}
+tr {
+
+}
+th {
+    padding: 20px;
+    font-size: 30px;
+
+}
+td {
+    background-color: #bec1c7;
+    padding: 10px;
+}
+img {
+width: 180px;
+}
