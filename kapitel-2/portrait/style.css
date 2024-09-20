@@ -1,0 +1,49 @@
+body {
+    background-image: url(./Bilder/ksenia-pASDi9sVaJw-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    
+    font-size: 100px;
+    color: rgb(132, 7, 249);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+h2 {
+    
+    color: rgb(132, 7, 249);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+h3 {
+    
+    color: rgb(132, 7, 249);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+p {
+    
+    color: rgb(58, 136, 253);
+    font-size: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
