@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Layoutens utseende */
+body {
+    background-image: url(./bilder/julia-kicova-Puj3fPG7IW8-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+div{
+    width: 600px;
+    background-color: #a84202dc;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid brown;
+    border-radius: 30px;
+    padding: 50px;
+    font-family: "Pacifico", cursive;
+    color: rgb(66, 12, 88);
+}
+
+/* Innehållets utseende */
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px cornsilk;
+}
+h2 {
+    margin-bottom: 15px;
+
+}
+img {
+    margin-bottom: 15px;
+
+}
+p {
+    margin-bottom: 10px;
+
+}
+ul {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    list-style-type: circle;
+
+}
+li {
+
+}
