@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body.sida1 {
+    background-image: url("./bilder/OIP\ \(6\).jpg");
+}
+body.sida2 {
+    background-image: url("./bilder/OIP\ \(5\).jpg");
+}
+body.side3 {
+    background-image: url("./bilder/OIP\ \(4\).jpg");
+}
+body.side4 {
+    background-image: url("./bilder/OIP\ \(7\).jpg");
+}
+body.side5 {
+    background-image: url("./bilder/OIP\ \(8\).jpg");
+}
+body.side6 {
+    background-image: url("./bilder/ladda\ ned\ \(1\).jpg");
+}
+div {
+    background-color: rgb(165, 202, 20);
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed  rgb(17, 65, 155);
+    padding: 20px;
+
+}
+h1 {
+    font-family: "Oswald", system-ui;
+
+}
+p {
+    font-family: "Oswald", sans-serif;
+
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: brown;
+}
