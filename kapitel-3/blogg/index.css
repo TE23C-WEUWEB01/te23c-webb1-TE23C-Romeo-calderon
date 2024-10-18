@@ -1,0 +1,29 @@
+body {
+    background-color:#344e41;
+    color: #3a5a40;
+}
+div.sidan {
+    background-color: #588157;
+    width: 700px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: white;
+}
+div.inlägg {
+    background-color:#a3b18a;
+
+}
+
+/* innehållet utseende */
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 70px;
+}
+img {
+    width: 100%;
+    border: 20px; 
+    border-radius: 20px;
+
+}

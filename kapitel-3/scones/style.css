@@ -20,14 +20,14 @@ body {
 }
 div{
     width: 600px;
-    background-color: #a84202dc;
+    background-color:orange;
     margin: auto;
     margin-top: 50px;
-    border: 10px solid brown;
+    border: 10px solid orange;
     border-radius: 30px;
     padding: 50px;
     font-family: "Pacifico", cursive;
-    color: rgb(66, 12, 88);
+    color: pink
 }
 
 /* Innehållets utseende */
