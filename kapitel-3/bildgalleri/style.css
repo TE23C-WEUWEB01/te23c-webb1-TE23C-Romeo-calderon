@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+/* Sidans backgrund */
+body {
+    background-color: grey;
+    /* background-image: url(); */
+}
+
+/* Kontainern utseende */
+.kontainer {
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    font-family: "Playwrite GB S", cursive;
+}
+h1 {
+    font-family: "Jura", sans-serif;
+    font-size: 120px;
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Boxarnas utseende */
+.bild{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+}
+h3 {
+    font-family: "Jura", sans-serif;
+}
+p {
+}
+a {}
