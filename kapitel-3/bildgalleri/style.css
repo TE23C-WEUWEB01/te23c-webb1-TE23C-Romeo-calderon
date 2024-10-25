@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+
 /* Sidans backgrund */
 body {
-    background-color: grey;
-    /* background-image: url(); */
+    background-image: url(./bilder/casey-horner-RmoWqDCqN2E-unsplash.jpg);
 }
 
 /* Kontainern utseende */
 .kontainer {
+    background-color: rgba(255, 255, 255, 0.452);
     width: 800px;
     padding: 30px;
     margin: auto;
@@ -15,12 +27,14 @@ body {
 }
 h1 {
     font-family: "Jura", sans-serif;
-    font-size: 120px;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 50px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Boxarnas utseende */
@@ -30,12 +44,18 @@ h2 {
     padding: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
 }
 img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
 h3 {
-    font-family: "Jura", sans-serif;
+    margin-bottom: 20px;
 }
 p {
 }
