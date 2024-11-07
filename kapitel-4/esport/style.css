@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Poiret+One&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+
+/* Layouten */
+body {
+    background-color: #8d60C9;
+}
+.kontainer{
+    font-family: "Exo", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #E7DEF4;
+}
+.bild {
+    background-color: #5A5A5A;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* Rubrikerna */
+h1 {
+    font-family: "Coda", system-ui;
+    font-size: 75px;
+}
+h2 {
+
+}
+/* Sidans innehåll */
+img {
+    width: 200px;
+
+}
+.bildtext {
+    
+}
+.thanks {
+
+}
+a {
+
+}
+
