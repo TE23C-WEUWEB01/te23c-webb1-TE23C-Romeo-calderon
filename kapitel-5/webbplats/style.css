@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+
+/* Layoutens uts
+eende */
+
+body {
+
+}
+.kontainer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #9a7aa0;
+}
+
+/* Menyn utseende */
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #b4edd2;
+    background-color: #8d94ba;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 3px 0 #405354;
+}
+a:hover {
+    background-color: #a0cfd3;
+}
+
+/* Innehållet */
+h1 {
+    font-family: "Metal Mania", system-ui;
+    color: #87677b;
+    font-size: 80px;
+}
+figure {
+    background-color: azure;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+figcaption {
+
+}
+p {
+    margin-bottom: 15px;
+}
+.tack {
+
+}
