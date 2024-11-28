@@ -12,8 +12,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
      padding: 0;
 }
 
-/* Layoutens uts
-eende */
+/* Layoutens utseende */
 
 body {
 
@@ -27,15 +26,15 @@ body {
 }
 
 /* Menyn utseende */
-ul{
+.kontainer ul{
     display: flex;
     justify-content: center;
 
 }
-li {
+.kontainer ul li {
     list-style-type: none;
 }
-a {
+.kontainer ul a {
     text-decoration: none;
     color: #b4edd2;
     background-color: #8d94ba;
@@ -46,17 +45,21 @@ a {
     text-align: center;
     box-shadow: 2px 3px 0 #405354;
 }
-a:hover {
+
+.kontainer .aktiv {
+    background-color: #a0cfd3;
+}
+.kontainer ul a:hover {
     background-color: #a0cfd3;
 }
 
 /* Innehållet */
-h1 {
+.kontainer h1 {
     font-family: "Metal Mania", system-ui;
     color: #87677b;
     font-size: 80px;
 }
-figure {
+.kontainer figure {
     background-color: azure;
     padding: 30px;
     width: 60%;
@@ -64,17 +67,22 @@ figure {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-img {
+.kontainer figure img {
     width: 100%;
     padding: 20px;
     margin: auto;
 }
-figcaption {
+.kontainer figure figcaption {
 
 }
-p {
+.kontainer p {
     margin-bottom: 15px;
 }
-.tack {
+.kontainer .tack {
+    font-style: italic;
+}
 
+.kontainer .tack a {
+    text-decoration: none;
+    color: brown;
 }
