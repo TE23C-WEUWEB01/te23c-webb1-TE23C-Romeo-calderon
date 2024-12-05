@@ -12,7 +12,72 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Layoutens utseende */
 
 body {
-    
+
+background-image: url(./bilder/denys-nevozhai-duo-xV0TU7s-unsplash.jpg);
+background-size: cover;
+}
+@keyframes fall {
+    100% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(450%);
+        opacity: 10;
+    }
+}
+.snowfall-text {
+    font-size: 3rem;
+    color: white;
+    animation: fall-text 3s ease-in-out;
+}
+
+@keyframes fall-text {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.snowflake {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    font-size: 4rem;
+    animation: fall 15s linear infinite;
+}
+.light {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    0% { opacity: 0.5; }
+    100% { opacity: 5; }
+}
+.fas {
+    font-size: 3rem;
+    color: green;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.fas:hover {
+    transform: scale(1.2);
+    color: gold;
+}
+.ornament {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 500%;
+    display:block;
+    transition: transform 1s;
+}
+
+.ornament:hover {
+    transform: translateY(-100px) rotate(100deg);
 }
 .kontainer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -21,6 +86,17 @@ body {
     margin: auto;
     background-color: #65b33e;
     border: 10px dashed rgb(128, 0, 0);
+}
+h1 {
+    font-size: 3rem;
+    color: red;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px orange;
+    animation: neon 1.5s infinite alternate;
+}
+
+@keyframes neon {
+    0% { text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px orange; }
+    100% { text-shadow: 0 0 20px red, 0 0 30px orange, 0 0 40px yellow; }
 }
 
 /* Menyn utseende */
@@ -66,6 +142,44 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 10px dashed rgb(128, 0, 0);
+}
+.present {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.present:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: gold;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+}
+
+.day {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.day.open {
+    background-color: #00ff00;
+    color: black;
 }
 .kontainer figure img {
     width: 100%;
