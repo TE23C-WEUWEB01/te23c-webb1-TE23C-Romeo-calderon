@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -43,41 +45,16 @@ background-size: cover;
     font-size: 4rem;
     animation: fall 15s linear infinite;
 }
-.light {
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 15px;
-    animation: blink 1s infinite alternate;
-}
-
-@keyframes blink {
-    0% { opacity: 0.5; }
-    100% { opacity: 5; }
-}
-.fas {
-    font-size: 3rem;
-    color: green;
-    transition: transform 0.3s, color 0.3s;
-}
-
-.fas:hover {
-    transform: scale(1.2);
-    color: gold;
-}
 .ornament {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: 500%;
-    display:block;
-    transition: transform 1s;
+    width: 100px;
+    height: 40px;
+    background-color:#65b33e;
+    transition: transform 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .ornament:hover {
-    transform: translateY(-100px) rotate(100deg);
+    transform: translateY(-100000px) rotate(100000deg);
 }
 .kontainer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -135,51 +112,13 @@ h1 {
     font-size: 80px;
 }
 .kontainer figure {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 243, 243);
     padding: 30px;
     width: 60%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 10px dashed rgb(128, 0, 0);
-}
-.present {
-    background-color: #ff0000;
-    color: white;
-    padding: 20px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    position: relative;
-}
-
-.present:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    background-color: gold;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
-.calendar {
-    display: grid;
-    grid-template-columns: repeat(5, 50px);
-    gap: 10px;
-}
-
-.day {
-    background-color: #ff0000;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-    border: 2px solid #fff;
-}
-
-.day.open {
-    background-color: #00ff00;
-    color: black;
 }
 .kontainer figure img {
     width: 100%;
@@ -191,6 +130,8 @@ h1 {
 }
 .kontainer p {
     margin-bottom: 15px;
+    font-family: "Rancho", cursive;
+    font-size: 30px;
 }
 .kontainer .tack {
     font-style: italic;
