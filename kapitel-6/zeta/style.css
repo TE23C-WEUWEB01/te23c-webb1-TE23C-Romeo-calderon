@@ -1,0 +1,60 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+
+body {
+    background-color: #FBF7F1;
+}
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #502314;
+}
+
+/* Sida */
+.sida {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.sida .meny {
+    padding: 10px;
+}
+.sida .meny a {
+    text-decoration: none;
+    color: #502314;
+    padding: 20px 10px;
+}
+
+/* Sidinnehållet kys */
+.rutor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.rutor .produkter {
+    background-color: #F8EBDC;
+    text-align: center;
+    border-radius: 10px;
+    height: 150px;
+}
+.rutor .produkter img {
+    width: 250px;
+}
+.rutor .produkter p {
+    font-size: 25px;
+}
+.rutor .produkter p.fix {
+    margin-top: 5cqh;
+}
