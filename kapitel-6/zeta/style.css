@@ -7,54 +7,72 @@ html {
 }
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
-     padding: 0;
+    padding: 0;
 }
 
+/* Färger och typsnitt */
 body {
-    background-color: #FBF7F1;
+    font-family: 'Arial', sans-serif;
+    background-image: url(./bilder/image-134.png);
+    background-size: cover;
+    color: #333;
 }
+
+/* Kontainer */
 .kontainer {
-    width: 1200px;
-    margin: auto;
-    font-family: "Modak", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #502314;
+    background-color: #F3F0DD;
+    min-height: 10vh;
+    padding: 20px;
+}
+
+/* Meny */
+.meny {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F0DD;
+    padding: 15px 30px;
+}
+
+.meny a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.meny img {
+    height: 40px;
 }
 
 /* Sida */
 .sida {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-}
-.sida .meny {
-    padding: 10px;
-}
-.sida .meny a {
-    text-decoration: none;
-    color: #502314;
-    padding: 20px 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: white
 }
 
-/* Sidinnehållet kys */
+/* Rutnät för produkter */
 .rutor {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 20px;
 }
-.rutor .produkter {
-    background-color: #F8EBDC;
+
+/* Individuell produkt */
+.produkt {
+    background-color: white;
+    padding: 10px;
     text-align: center;
-    border-radius: 10px;
-    height: 150px;
 }
-.rutor .produkter img {
-    width: 250px;
+
+.produkt img {
+    width: 230px;
+    height: auto;
 }
-.rutor .produkter p {
-    font-size: 25px;
+
+.produkt p {
+    font-weight: bold;
+    margin-top: 10px;
 }
-.rutor .produkter p.fix {
-    margin-top: 5cqh;
-}
+
