@@ -1,0 +1,42 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+img {
+    width: 100%;
+}
+
+/* sidans layout*/
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "sidhuvud sidhuvud"
+    "sidebar innehall"
+    "sidfot sidfot";
+}
+header {
+    grid-area: sidhuvud;
+    background-color: #047a16;
+}
+main {
+    grid-area: innehall;
+    background-color: #ad3232;
+}
+aside {
+    grid-area: sidebar;
+    background-color: #e6ff59;
+}
+footer {
+    grid-area: sidfot;
+    background-color: #4e51ba;
+}
