@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -7,36 +9,115 @@ html {
 }
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
-     padding: 0;
+    padding: 0;
 }
 img {
     width: 100%;
 }
 
-/* sidans layout*/
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-    "sidhuvud sidhuvud"
-    "sidebar innehall"
-    "sidfot sidfot";
+/* Sidans layout */
+body {
+    background-image: url(./bilder/su-san-lee-g3PyXO4A0yc-unsplash.jpg);
+}
+
+
+/* Responsive layout */
+/* Små enheter bredd*/
+@media (min-width: 550px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "sidhuvud "
+        "innehall "
+        "sidebar"
+        "sidfot";
+        gap: 20px;
+    }
+} 
+/* Mellan enheter bredd*/
+@media (min-width: 780px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
+} 
+
+/* Stora enheter bredd*/
+
+@media (min-width: 1280px) {
+    .kontainer {
+        width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
 }
 header {
     grid-area: sidhuvud;
-    background-color: #047a16;
 }
 main {
     grid-area: innehall;
-    background-color: #ad3232;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
 }
 aside {
     grid-area: sidebar;
-    background-color: #e6ff59;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
 }
 footer {
     grid-area: sidfot;
-    background-color: #4e51ba;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
 }
+
+/* Sidhuvudet */
+header h1 {
+    font-family: "Freckle Face", serif;
+    font-size: 80px;
+    color: #FFF;
+}
+header h2 {
+    font-family: "Freckle Face", serif;
+    font-size: 30px;
+    color: #FFF;
+}
+header nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(128,180,1);
+    background: linear-gradient(0deg, rgba(128,180,1,1) 0%, rgba(30,120,37,1) 0%, rgba(137,204,113,1) 40%, rgba(179,232,167,1) 60%, rgba(78,133,9,1) 100%);
+    padding: 20px;
+}
+header nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+
+/* Sidans innehåll */
+
+
+/* Sidofält */
+
+
+/* Sidfoten */
