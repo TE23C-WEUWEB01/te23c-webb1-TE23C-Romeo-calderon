@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+     padding: 0;
+}
+img {
+
+}
+
+/* sidan */
+html .body {
+    height: 100px;
+    width: 100px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    /* css trick för vertikal centrelling mm */
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1f auto;
+    grid-template-columns: 100%;
+}
+/* sidhuvud */
+.container header {
+    font-family: "Fugaz One", sans-serif;
+    text-align: center;
+
+}
+
+.container header h1 {
+    font-size: 90px;
+
+}
+.container header h1 nav {
+
+}
+.container header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.container header h1 nav a:hover {
+    border-bottom: 3px; 
+}
+.container header h1 nav a .active{
+    border-bottom: 3px solid white; 
+
+}
+
+
+/* innehållet */
+
+.container main {
+    font-family: "Roboto", sans-serif;
+    padding: 50px;
+} 
+.container main figure {
+    padding: 20px;
+}
+
+/* sidfoten */
+
+.container footer {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 800px;
+}
